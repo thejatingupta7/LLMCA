@@ -60,7 +60,7 @@ src/
 ├── 🌐 api_client.py    # Handles all communication with the AI model APIs.
 ├── 📄 file_handler.py  # Manages all file operations (reading questions, writing results).
 ├── ⏳ retry_handler.py # Implements the smart retry logic for failed API calls.
-├── 🛠️ processor.py       # The core orchestrator that manages the entire workflow.
+├── 🛠️ processor.py     # The core orchestrator that manages the entire workflow.
 └── 📋 requirements.txt # A list of all the Python libraries you need.
 ```
 
@@ -83,3 +83,4 @@ The application's workflow is orchestrated by `processor.py` and follows these s
 ----
 
 ### 📩 For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](jatingupta261001@gmail.com) for reference. 📩
+
