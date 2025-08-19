@@ -175,5 +175,18 @@ The application's workflow is orchestrated by `processor.py` and follows these s
   </tr>
 </table>
 
+----
 
+## 📚 Citation
+If you intend to use this work, please cite as:
 
+```bibtex
+@misc{gupta2025,
+  title={Large Language Models Acing Chartered Accountancy}, 
+  author={Jatin Gupta and Akhil Sharma and Saransh Singhania and Mohammad Adnan and Sakshi Deo and Ali Imam Abidi and Keshav Gupta},
+  year={2025},
+  eprint={2506.21031},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2506.21031}, 
+}
