@@ -82,7 +82,92 @@ The application's workflow is orchestrated by `processor.py` and follows these s
 
 ----
 
-### 📩 For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](jatingupta261001@gmail.com) for reference. 📩
+#### 📩 _For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](jatingupta261001@gmail.com) for reference._ 📩
+----
+
+### Table: Models' Performance on Foundation, Intermediate, and Final-level Subjects
+
+<table border="1" cellspacing="0" cellpadding="4">
+  <thead>
+    <tr>
+      <th rowspan="2">Models</th>
+      <th colspan="2">Foundation</th>
+      <th colspan="6">Intermediate</th>
+      <th colspan="6">Final</th>
+    </tr>
+    <tr>
+      <th>F1</th><th>F2</th>
+      <th>I1</th><th>I2</th><th>I3</th><th>I4</th><th>I5</th><th>I6</th>
+      <th>FI1</th><th>FI2</th><th>FI3</th><th>FI4</th><th>FI5</th><th>FI6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GPT 4o</td>
+      <td>50.00</td><td>58.00</td>
+      <td>46.66</td><td>73.33</td><td>20.00</td><td>20.00</td><td>86.66</td><td>75.00</td>
+      <td>71.43</td><td>53.33</td><td>78.57</td><td>53.33</td><td>33.33</td><td>41.67</td>
+    </tr>
+    <tr>
+      <td>LLAMA 3.3 70B Int.</td>
+      <td>59.00</td><td>56.00</td>
+      <td>33.33</td><td>60.00</td><td>40.00</td><td>40.00</td><td>73.33</td><td>75.00</td>
+      <td>64.29</td><td>33.33</td><td>71.43</td><td>53.33</td><td>6.67</td><td>20.83</td>
+    </tr>
+    <tr>
+      <td>LLAMA 3.1 405B Int.</td>
+      <td>53.00</td><td>59.00</td>
+      <td>40.00</td><td>53.33</td><td>20.00</td><td>40.00</td><td>86.66</td><td>56.25</td>
+      <td>64.29</td><td>46.67</td><td>71.43</td><td>13.33</td><td>26.67</td><td>41.67</td>
+    </tr>
+    <tr>
+      <td>MISTRAL Large</td>
+      <td>41.00</td><td>56.00</td>
+      <td>41.66</td><td>53.33</td><td>31.25</td><td>20.00</td><td>73.33</td><td>60.00</td>
+      <td>42.86</td><td>41.67</td><td>57.14</td><td>46.67</td><td>13.33</td><td>29.17</td>
+    </tr>
+    <tr>
+      <td>Claude 3.5 Sonnet</td>
+      <td>60.00</td><td>60.00</td>
+      <td>33.33</td><td>60.00</td><td>20.00</td><td>46.66</td><td>93.33</td><td>75.00</td>
+      <td>78.57</td><td>46.67</td><td>64.29</td><td>53.33</td><td>20.00</td><td>62.50</td>
+    </tr>
+    <tr>
+      <td>Microsoft Phi 4</td>
+      <td>56.00</td><td>62.00</td>
+      <td>46.66</td><td>46.66</td><td>33.33</td><td>33.33</td><td>66.66</td><td>68.75</td>
+      <td>64.29</td><td>53.33</td><td>57.14</td><td>26.67</td><td>6.67</td><td>41.67</td>
+    </tr>
+  </tbody>
+</table>
 
 
+
+<p><strong>Legend:</strong></p>
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="vertical-align:top; width:50%;">
+      <ul>
+        <li><strong>F1:</strong> Business Math & Stats</li>
+        <li><strong>F2:</strong> Business Econ & BCK</li>
+        <li><strong>I1:</strong> Adv. Accounting</li>
+        <li><strong>I2:</strong> Corp. Laws</li>
+        <li><strong>I3:</strong> Taxation</li>
+        <li><strong>I4:</strong> Cost & Mgmt. Acct.</li>
+        <li><strong>I5:</strong> Auditing & Ethics</li>
+      </ul>
+    </td>
+    <td style="vertical-align:top; width:50%;">
+      <ul>
+        <li><strong>I6:</strong> Fin. & Strat. Mgmt.</li>
+        <li><strong>FI1:</strong> Fin. Reporting</li>
+        <li><strong>FI2:</strong> Adv. Fin. Mgmt.</li>
+        <li><strong>FI3:</strong> Adv. Auditing</li>
+        <li><strong>FI4:</strong> Direct Tax Laws</li>
+        <li><strong>FI5:</strong> Indirect Tax Laws</li>
+        <li><strong>FI6:</strong> Integrated Business Sol.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
