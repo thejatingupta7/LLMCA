@@ -54,14 +54,14 @@ The application is organized logically to ensure clarity and maintainability.
 
 ```
 src/
-├── 📜 main.py          # Main entry point - Kicks off the evaluation process.
-├── ⚙️ config.py        # Central hub for all settings (API keys, model params, paths).
-├── 🧠 prompts.py       # Stores the system prompts used to guide the AI models.
-├── 🌐 api_client.py    # Handles all communication with the AI model APIs.
-├── 📄 file_handler.py  # Manages all file operations (reading questions, writing results).
-├── ⏳ retry_handler.py # Implements the smart retry logic for failed API calls.
-├── 🛠️ processor.py     # The core orchestrator that manages the entire workflow.
-└── 📋 requirements.txt # A list of all the Python libraries you need.
+├── 📜 main.py              # Main entry point - Kicks off the evaluation process.
+├── ⚙️ config.py            # Central hub for all settings (API keys, model params, paths).
+├── 🧠 prompts.py           # Stores the system prompts used to guide the AI models.
+├── 🌐 api_client.py        # Handles all communication with the AI model APIs.
+├── 📄 file_handler.py      # Manages all file operations (reading questions, writing results).
+├── ⏳ retry_handler.py     # Implements the smart retry logic for failed API calls.
+├── 🛠️ processor.py         # The core orchestrator that manages the entire workflow.
+└── 📋 requirements.txt     # A list of all the Python libraries you need.
 ```
 
 -----
@@ -170,4 +170,5 @@ The application's workflow is orchestrated by `processor.py` and follows these s
     </td>
   </tr>
 </table>
+
 
