@@ -5,7 +5,7 @@ This repository contains the modular Python application used to systematically e
 -----
 **Paper:** *[Large Language Models Acing Chartered Accountancy](https://arxiv.org/html/2506.21031v1)*.<br>
 **Colab:** *[Benchmark Loading and Analysis Script](https://drive.google.com/file/d/1pTFCfyfWpc0_RmUuSImaaeR9z5kfmlii/view?usp=sharing)*.<br>
-**Benchmark:** 📩 For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](jatingupta261001@gmail.com) for reference. 📩
+**Benchmark:** 📩 For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](mailto:jatingupta261001@gmail.com) for reference. 📩
 
 -----
 
@@ -83,4 +83,5 @@ The application's workflow is orchestrated by `processor.py` and follows these s
 ----
 
 ### 📩 For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](jatingupta261001@gmail.com) for reference. 📩
+
 
