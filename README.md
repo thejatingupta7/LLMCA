@@ -9,6 +9,10 @@ This repository contains the modular Python application used to systematically e
 
 -----
 
+<img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/d1b91686-ef44-4824-9819-b6511faade65" />
+
+-----
+
 ## ✨ Features
 
   - **🧱 Modular Architecture**: Clean separation of concerns. Each module handles a specific task (API calls, file I/O, retry logic), making the code easy to maintain and extend.
@@ -170,5 +174,6 @@ The application's workflow is orchestrated by `processor.py` and follows these s
     </td>
   </tr>
 </table>
+
 
 
