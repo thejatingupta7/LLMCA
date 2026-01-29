@@ -3,7 +3,7 @@
 This repository contains the modular Python application used to systematically evaluate Large Language Models (LLMs) against the **CA-Ben (Chartered Accountancy Benchmark)**. It automates the entire workflow, from sending prompts to the models to processing their responses and extracting the final answers for analysis. 📊
 
 -----
-**Paper:** *[Large Language Models Acing Chartered Accountancy](https://arxiv.org/html/2506.21031v1)*.<br>
+**Paper:** *[Large Language Models Acing Chartered Accountancy](https://link.springer.com/article/10.1007/s42979-025-04497-x)*.<br>
 **Colab:** *[Benchmark Loading and Analysis Script](https://drive.google.com/file/d/1pTFCfyfWpc0_RmUuSImaaeR9z5kfmlii/view?usp=sharing)*.<br>
 **Benchmark:** 📩 *For access to the benchmark data, kindly email the [corresponding author](mailto:aliabidi4685@gmail.com) and cc the [first author](mailto:jatingupta261001@gmail.com) for reference.* 📩
 
@@ -195,4 +195,5 @@ If you intend to use this work, please cite as:
   doi       = {10.1007/s42979-025-04497-x},
   url       = {https://doi.org/10.1007/s42979-025-04497-x}
 }
+
 
