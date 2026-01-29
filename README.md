@@ -181,12 +181,18 @@ The application's workflow is orchestrated by `processor.py` and follows these s
 If you intend to use this work, please cite as:
 
 ```bibtex
-@misc{gupta2025,
-  title={Large Language Models Acing Chartered Accountancy}, 
-  author={Jatin Gupta and Akhil Sharma and Saransh Singhania and Mohammad Adnan and Sakshi Deo and Ali Imam Abidi and Keshav Gupta},
-  year={2025},
-  eprint={2506.21031},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2506.21031}, 
+@article{Gupta2025,
+  author    = {Jatin Gupta and Akhil Sharma and Saransh Singhania and Mohammad Adnan and Sakshi Deo and Ali Imam Abidi and Keshav Gupta},
+  title     = {Large Language Models Acing Chartered Accountancy},
+  journal   = {SN Computer Science},
+  volume    = {6},
+  number    = {8},
+  pages     = {957},
+  year      = {2025},
+  month     = {November},
+  day       = {11},
+  issn      = {2661-8907},
+  doi       = {10.1007/s42979-025-04497-x},
+  url       = {https://doi.org/10.1007/s42979-025-04497-x}
 }
+
